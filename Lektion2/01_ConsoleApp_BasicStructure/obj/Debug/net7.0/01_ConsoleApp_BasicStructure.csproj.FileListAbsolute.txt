@@ -1,0 +1,14 @@
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\bin\Debug\net7.0\01_ConsoleApp_BasicStructure.exe
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\bin\Debug\net7.0\01_ConsoleApp_BasicStructure.deps.json
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\bin\Debug\net7.0\01_ConsoleApp_BasicStructure.runtimeconfig.json
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\bin\Debug\net7.0\01_ConsoleApp_BasicStructure.dll
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\bin\Debug\net7.0\01_ConsoleApp_BasicStructure.pdb
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\01_ConsoleApp_BasicStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\01_ConsoleApp_BasicStructure.AssemblyInfoInputs.cache
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\01_ConsoleApp_BasicStructure.AssemblyInfo.cs
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\01_ConsoleApp_BasicStructure.csproj.CoreCompileInputs.cache
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\01_ConsoleApp_BasicStructure.dll
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\refint\01_ConsoleApp_BasicStructure.dll
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\01_ConsoleApp_BasicStructure.pdb
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\01_ConsoleApp_BasicStructure.genruntimeconfig.cache
+C:\Nackademin\C-Sharp\Lektion2\01_ConsoleApp_BasicStructure\obj\Debug\net7.0\ref\01_ConsoleApp_BasicStructure.dll
