@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "d/lLiB8uKcTqgqVbGCdP4XHHZYj84abJqUTPDDq/Xf2JHi+VLRoun+mypre2MP+2hfuSgy73q3xf7IxyeGLlKg==",
+  "success": true,
+  "projectFilePath": "C:\\Nackademin\\C-Sharp\\Exam_Uppgift\\02VehicleList_Console\\02VehicleList_Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hanna\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
