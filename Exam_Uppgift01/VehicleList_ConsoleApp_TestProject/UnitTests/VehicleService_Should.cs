@@ -7,7 +7,7 @@ namespace VehicleList_ConsoleApp_TestProject.UnitTests;
 public class VehicleService_Should
 {
     [Fact]
-    public void AddVehicle_Should_AddOneVehicleToList_AndReturnTrue()
+    public async Task AddVehicle_Should_AddOneVehicleToList_AndReturnTrue()
     {
         // Arrange
         IVehicleService vehicleService = new VehicleService();
@@ -24,7 +24,7 @@ public class VehicleService_Should
         Task result = vehicleService.AddVehicleAsync(vehicle);
 
         // Assert
-        Assert.ThrowsAnyAsync<Exception>(() => result);
+        await Assert.ThrowsAsync<Exception>(() => result);
     }
 
     [Fact]

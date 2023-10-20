@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using VehicleList_ConsoleApp.Interfaces;
+using VehicleList_ConsoleApp.Models;
 
 namespace VehicleList_ConsoleApp.Services;
 
@@ -17,14 +18,14 @@ public class VehicleService : IVehicleService
 
     public IEnumerable<IVehicles> GetAllVehicles()
     {
+        _vehicles.Clear();
         var content = FileService.ReadFromFile();
-        if (string.IsNullOrEmpty(content))
-            _vehicles = JsonConvert.DeserializeObject<List<IVehicles>>(content)!;
-
-        foreach (var vehicle in _vehicles)
+        if (!string.IsNullOrEmpty(content))
         {
-            Console.WriteLine($"{vehicle.FullVehicle}");
+            foreach (var vehicle in JsonConvert.DeserializeObject<List<Vehicles>>(content)!)
+                _vehicles.Add(vehicle);
         }
+
         return _vehicles;
     }
 
@@ -37,5 +38,13 @@ public class VehicleService : IVehicleService
     {
         var vehicle = GetOneVehicle(regnr);
         _vehicles.Remove(vehicle);
+
+        SendToJson();
+    }
+
+    public async void SendToJson()
+    {
+        var json = JsonConvert.SerializeObject(_vehicles);
+        await FileService.SaveToFileAsync(json);
     }
 }

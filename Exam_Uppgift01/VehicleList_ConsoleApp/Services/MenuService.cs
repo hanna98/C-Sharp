@@ -69,9 +69,10 @@ public class MenuService
     public static void RemoveVehicleList()
     {
         Console.Write("Fordonets regnr: ");
-        var regnr = Console.ReadLine();
+        var regnr = Console.ReadLine()!.ToUpper();
 
         _vehicleService.RemoveVehicle(regnr!);
+
     }
 
     public static void ShowAllVehicleList()
