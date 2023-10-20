@@ -1,0 +1,17 @@
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\bin\Debug\net7.0\NewVehicleList.exe
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\bin\Debug\net7.0\NewVehicleList.deps.json
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\bin\Debug\net7.0\NewVehicleList.runtimeconfig.json
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\bin\Debug\net7.0\NewVehicleList.dll
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\bin\Debug\net7.0\NewVehicleList.pdb
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.csproj.AssemblyReference.cache
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.AssemblyInfoInputs.cache
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.AssemblyInfo.cs
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.csproj.CoreCompileInputs.cache
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.csproj.CopyComplete
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.dll
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\refint\NewVehicleList.dll
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.pdb
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\NewVehicleList.genruntimeconfig.cache
+C:\Nackademin\C-Sharp\Exam_Uppgift01\NewVehicleList\obj\Debug\net7.0\ref\NewVehicleList.dll

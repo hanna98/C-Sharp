@@ -1,22 +1,33 @@
-﻿namespace VehicleList_ConsoleApp.Services;
+﻿using System.Diagnostics;
+
+namespace VehicleList_ConsoleApp.Services;
 
 public class FileService
 {
-    private static readonly string _filePath = @"c:\Nackademin\C-Sharp\JsonFiles\NewVehicleList.json";
+    private static readonly string _filePath = @"c:\Nackademin\C-Sharp\JsonFiles\VehicleList_CA.json";
     public static async Task SaveToFileAsync(string content)
     {
-        using StreamWriter sw = new StreamWriter(_filePath);
-        await sw.WriteLineAsync(content);
+        try
+        {
+            using StreamWriter sw = new StreamWriter(_filePath);
+            await sw.WriteLineAsync(content);
+        }
+        catch (Exception ex) { Debug.WriteLine(ex.Message); }
     }
 
     public static string ReadFromFile()
     {
-        if (File.Exists(_filePath))
-        {
-            using StreamReader sr = new StreamReader(_filePath);
-            return sr.ReadToEnd();
-        }
+        //try
+        //{
+            if (File.Exists(_filePath))
+            {
+                using StreamReader sr = new StreamReader(_filePath);
+                return sr.ReadToEnd();
+            }
 
-        return null!;
+            return null!;
+        //}
+        //catch (Exception ex) { Debug.WriteLine(ex.Message); }
+        
     }
 }
